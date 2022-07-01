@@ -1,9 +1,12 @@
 const express = require("express");
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
+const cors = require('cors')
 
 const { typeError }= require('./middlewares/errors');
 const { dbConnection } = require("./config/config")
+
+app.use(cors())
 
 app.use(express.json())
 

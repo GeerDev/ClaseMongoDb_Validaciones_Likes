@@ -1,5 +1,5 @@
 module.exports = {
-    MONGO_URI: 'mongodb+srv://<name>:<password>@cluster0-tuqrv.mongodb.net/test?retryWrites=true&w=majority',
-    jwt_secret:'aquí va tu secretito'
+    MONGO_URI: 'mongodb+srv://Gera:GeraRedSocial17@cluster0.6igwl.mongodb.net/Clase-Redux',
+    jwt_secret:'secretito'
 }
 
